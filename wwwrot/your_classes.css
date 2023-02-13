@@ -1,0 +1,269 @@
+.back{  
+    position: absolute;
+    width: 100%;
+    height: 88%;
+    top: 12%;
+    right: 0.01%;
+    background: #434040;
+}
+
+.classes{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background: #363434;
+}
+.school_class p{
+    position: absolute;
+    width: 378px;
+    height: 75px;
+    top: -40%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.school_class{
+    position: fixed;
+    width: 14%;
+    height: 6%;
+    left: 6px;
+    top: 13.5%;
+    background: #DB00FF;
+    border-radius: 10px;
+}
+
+.school_subject{
+    position: fixed;
+    width: 14%;
+    height: 6%;
+    left: 6px;
+    top: 20.5%;
+    background: #DB00FF;
+    border-radius: 10px;
+}
+
+.school_subject p{
+    position: absolute;
+    width: 139px;
+    height: 67px;
+    left: 3px;
+    top: -40%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.class_btn{
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    z-index: 999;
+}
+
+.class_btn:active{
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    transform: rotate(90deg);
+    transition: transform 0.15s;
+}
+
+.subject_btn{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    cursor: pointer;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    
+}
+
+.subject_btn:active{
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    transform: rotate(90deg);
+    transition: transform 0.15s;
+}
+.Mark{
+    position: absolute;
+    width: 90%;
+    height: 7%;
+    top: 16%;
+    left: 3%;
+    background: #434040;
+    border-radius: 6px;
+    z-index: 999;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Arseny{
+    position: absolute;
+    width: 90%;
+    height: 7%;
+    top: 24.5%;
+    left: 3%;
+    background: #434040;
+    border-radius: 6px;
+    z-index: 999;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Mark_17_nov{
+    position: absolute;
+    width: 120px;
+    height: 54px;
+    left: 320px;
+    top: 19%;
+    background: #686868;
+    border-radius: 10px;
+}
+.Arseny_17_nov{
+    position: absolute;
+    width: 120px;
+    height: 54px;
+    left: 320px;
+    top: 27%;
+    background: #686868;
+    border-radius: 10px;
+}
+
+.Mark_18_nov{
+    position: absolute;
+    width: 120px;
+    height: 54px;
+    left: 550px;
+    top: 19%;
+    background: #686868;
+    border-radius: 10px;
+}
+.Arseny_18_nov{
+    position: absolute;
+    width: 120px;
+    height: 54px;
+    left: 550px;
+    top: 27%;
+    background: #686868;
+    border-radius: 10px;
+}
+.Mark_17_nov p, .Arseny_17_nov p, .Mark_18_nov p, .Arseny_18_nov p{
+    position: absolute;
+    width: 38px;
+    height: 47px;
+    left: 15px;
+    top: -3px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 13px;
+    font-size: 32px;
+    line-height: 1px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.Mark_edit_17_nov, .Arseny_edit_17_nov, .Mark_edit_18_nov, .Arseny_edit_18_nov{
+    position: absolute;
+    width: 52px;
+    height: 44px;
+    left: 64px;
+    top: 7px;
+    background: #464545;
+    border-radius: 6px;
+    border: 0px;
+}
+.Mark_edit_17_nov:active,.Arseny_edit_17_nov:active, .Mark_edit_18_nov:active, .Arseny_edit_18_nov:active{
+    position: absolute;
+    width: 52px;
+    height: 44px;
+    left: 64px;
+    top: 7px;
+    background: #464545;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    transform: translate3d(0em, 0.15em, 0em);
+    transition: transform 0.15s;
+}
+.n17{
+    position: absolute;
+    width: 210px;
+    height: 114px;
+    left: 276px;
+    top: 1%;
+    background: #363434;
+    border-radius: 10px;
+    z-index: 4;
+}   
+.n18{
+    position: absolute;
+    width: 210px;
+    height: 114px;
+    left: 500px;
+    top: 1%;
+    background: #363434;
+    border-radius: 10px;
+    z-index: 4;
+}
+.n17 p, .n18 p{
+    position: absolute;
+    width: 187px;
+    height: 40px;
+    left: 7px;
+    top: -18px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.n17 a, .n18 a{
+    position: absolute;
+    width: 178px;
+    height: 40px;
+    left: 12px;
+    top: 57px;
+    background: #434040;
+    border-radius: 9px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}

@@ -1,0 +1,280 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник</title>
+    <link href="{% static 'diareya/css/styles.css' %}" rel="stylesheet">
+    <link href="{% static 'diareya/css/diary.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="links">
+        <a class="main_link" href="main.html"><p>Главная Страница</p></a>
+        <a class="diary_link" href="diary.html"><p>Дневник</p></a>
+        <a class="news_link" href="news.html"><p>Новости</p></a>
+        <a class="marks_link"  href="marks.html"><p>Ср. Балл</p></a>
+        <a class="messenger_link"  href="messenger.html"><p>Сообщения</p></a>
+    </div>
+        <button class="notifications"> <img  class="notifications_icon" src="{% static 'diareya/img/kokokl.png' %}" style="width: 64px;"  > </button>
+        <div class="user_icon"><a class="user_icontext">АС</a></div>
+    {% for el in content.marks %}
+        <div class="week_lessons">
+
+                <div class="day1">
+
+                    <div class="day1_lesson1">
+                        <a>1 урок 8.20-9.00</a>
+                        <p>Русский Язык</p>
+                        <p class="day1_task1">{{ el.homework }}</p>
+
+                    </div>
+                    <div class="day1_lesson2">
+                        <a>2 урок 9.20-10.00</a>
+                        <p>Английский Язык</p>
+                        <p class="day1_task2">{{ el.homework }}</p>
+                    </div>
+                    <div class="day1_lesson3">
+                        <a>3 урок 10.20-11.00</a>
+                        <p>Алгебра</p>
+                        <p class="day1_task3">{{ el.homework }}</p>
+                    </div>
+                    <div class="day1_lesson4">
+                        <a>4 урок 11.20-12.00</a>
+                        <p>Геометрия</p>
+                        <p class="day1_task4">{{ el.homework }}</p>
+                    </div>
+                    <div class="day1_lesson5">
+                        <a>5 урок 12.20-13.00</a>
+                        <p>Физика</p>
+                        <p class="day1_task5">{{ el.homework }}</p>
+                    </div>
+                    <div class="day1_lesson6">
+                        <a>6 урок 13.20-14.00</a>
+                        <p>Химия</p>
+                        <p class="day1_task6">{{ el.homework }}</p>
+                    </div>
+                    <a class="day1_mark1">5</a>
+                    <a class="day1_mark2">5</a>
+                    <a class="day1_mark3">5</a>
+                    <a class="day1_mark4">5</a>
+                    <a class="day1_mark5">5</a>
+                    <a class="day1_mark6">5</a>
+                </div>
+
+            <div class="day2">
+
+                <div class="day1_lesson1">
+                    <a>1 урок 8.20-9.00</a>
+                    <p>Русский Язык</p>
+                    <p class="day1_task1">{{ el.homework }}</p>
+
+                </div>
+                <div class="day1_lesson2">
+                    <a>1 урок 9.20-10.00</a>
+                    <p>Английский Язык</p>
+                    <p class="day1_task2">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson3">
+                    <a>1 урок 10.20-11.00</a>
+                    <p>Алгебра</p>
+                    <p class="day1_task3">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson4">
+                    <a>1 урок 11.20-12.00</a>
+                    <p>Геометрия</p>
+                    <p class="day1_task4">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson5">
+                    <a>1 урок 12.20-13.00</a>
+                    <p>Физика</p>
+                    <p class="day1_task5">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson6">
+                    <a>1 урок 13.20-14.00</a>
+                    <p>Химия</p>
+                    <p class="day1_task6">{{ el.homework }}</p>
+                </div>
+                <a class="day1_mark1">5</a>
+                <a class="day1_mark2">5</a>
+                <a class="day1_mark3">5</a>
+                <a class="day1_mark4">5</a>
+                <a class="day1_mark5">5</a>
+                <a class="day1_mark6">5</a>
+            </div>
+            <div class="day3">
+
+                <div class="day1_lesson1">
+                    <a>1 урок 8.20-9.00</a>
+                    <p>Русский Язык</p>
+                    <p class="day1_task1">{{ el.homework }}</p>
+
+                </div>
+                <div class="day1_lesson2">
+                    <a>1 урок 9.20-10.00</a>
+                    <p>Английский Язык</p>
+                    <p class="day1_task2">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson3">
+                    <a>1 урок 10.20-11.00</a>
+                    <p>Алгебра</p>
+                    <p class="day1_task3">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson4">
+                    <a>1 урок 11.20-12.00</a>
+                    <p>Геометрия</p>
+                    <p class="day1_task4">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson5">
+                    <a>1 урок 12.20-13.00</a>
+                    <p>Физика</p>
+                    <p class="day1_task5">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson6">
+                    <a>1 урок 13.20-14.00</a>
+                    <p>Химия</p>
+                    <p class="day1_task6">{{ el.homework }}</p>
+                </div>
+                <a class="day1_mark1">5</a>
+                <a class="day1_mark2">5</a>
+                <a class="day1_mark3">5</a>
+                <a class="day1_mark4">5</a>
+                <a class="day1_mark5">5</a>
+                <a class="day1_mark6">5</a>
+            </div>
+            <div class="day4">
+
+                <div class="day1_lesson1">
+                    <a>1 урок 8.20-9.00</a>
+                    <p>Русский Язык</p>
+                    <p class="day1_task1">{{ el.homework }}</p>
+
+                </div>
+                <div class="day1_lesson2">
+                    <a>1 урок 9.20-10.00</a>
+                    <p>Английский Язык</p>
+                    <p class="day1_task2">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson3">
+                    <a>1 урок 10.20-11.00</a>
+                    <p>Алгебра</p>
+                    <p class="day1_task3">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson4">
+                    <a>1 урок 11.20-12.00</a>
+                    <p>Геометрия</p>
+                    <p class="day1_task4">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson5">
+                    <a>1 урок 12.20-13.00</a>
+                    <p>Физика</p>
+                    <p class="day1_task5">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson6">
+                    <a>1 урок 13.20-14.00</a>
+                    <p>Химия</p>
+                    <p class="day1_task6">{{ el.homework }}</p>
+                </div>
+                <a class="day1_mark1">5</a>
+                <a class="day1_mark2">5</a>
+                <a class="day1_mark3">5</a>
+                <a class="day1_mark4">5</a>
+                <a class="day1_mark5">5</a>
+                <a class="day1_mark6">5</a>
+            </div>
+            <div class="day5">
+
+                <div class="day1_lesson1">
+                    <a>1 урок 8.20-9.00</a>
+                    <p>Русский Язык</p>
+                    <p class="day1_task1">{{ el.homework }}</p>
+
+                </div>
+                <div class="day1_lesson2">
+                    <a>1 урок 9.20-10.00</a>
+                    <p>Английский Язык</p>
+                    <p class="day1_task2">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson3">
+                    <a>1 урок 10.20-11.00</a>
+                    <p>Алгебра</p>
+                    <p class="day1_task3">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson4">
+                    <a>1 урок 11.20-12.00</a>
+                    <p>Геометрия</p>
+                    <p class="day1_task4">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson5">
+                    <a>1 урок 12.20-13.00</a>
+                    <p>Физика</p>
+                    <p class="day1_task5">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson6">
+                    <a>1 урок 13.20-14.00</a>
+                    <p>Химия</p>
+                    <p class="day1_task6">{{ el.homework }}</p>
+                </div>
+                <a class="day1_mark1">5</a>
+                <a class="day1_mark2">5</a>
+                <a class="day1_mark3">5</a>
+                <a class="day1_mark4">5</a>
+                <a class="day1_mark5">5</a>
+                <a class="day1_mark6">5</a>
+            </div>
+            <div class="day6">
+
+                <div class="day1_lesson1">
+                    <a>1 урок 8.20-9.00</a>
+                    <p>Русский Язык</p>
+                    <p class="day1_task1">{{ el.homework }}</p>
+
+                </div>
+                <div class="day1_lesson2">
+                    <a>1 урок 9.20-10.00</a>
+                    <p>Английский Язык</p>
+                    <p class="day1_task2">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson3">
+                    <a>1 урок 10.20-11.00</a>
+                    <p>Алгебра</p>
+                    <p class="day1_task3">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson4">
+                    <a>1 урок 11.20-12.00</a>
+                    <p>Геометрия</p>
+                    <p class="day1_task4">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson5">
+                    <a>1 урок 12.20-13.00</a>
+                    <p>Физика</p>
+                    <p class="day1_task5">{{ el.homework }}</p>
+                </div>
+                <div class="day1_lesson6">
+                    <a>1 урок 13.20-14.00</a>
+                    <p>Химия</p>
+                    <p class="day1_task6">{{ el.homework }}</p>
+                </div>
+                <a class="day1_mark1">5</a>
+                <a class="day1_mark2">5</a>
+                <a class="day1_mark3">5</a>
+                <a class="day1_mark4">5</a>
+                <a class="day1_mark5">5</a>
+                <a class="day1_mark6">5</a>
+            </div>
+            <div class="dolgi">
+                <p class="dolgi_int">6</p>
+                <p class="padezh">Долгов</p>
+            </div>
+            <div class="weeks">
+                <button class="btn">
+                    <p>Ноябрь, 13 неделя</p>
+                </button>
+                <button class="left_arrow"><img src="{% static 'diareya/img/Untitled-7.png' %}" style="width:32px"></button>
+                <button class="right_arrow"><img src="{% static 'diareya/img/Untitled-4.png' %}" style="width:32px"></button>
+            </div>
+    {% endfor %}
+    </div>
+</body>
+</html>

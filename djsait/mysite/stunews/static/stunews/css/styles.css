@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+a{text-decoration: none;}
+
+body{
+    background: #4F4F4F;
+}
+
+
+.main_link p , .diary_link p , .news_link p, .marks_link p, .messenger_link p {
+    font-size: 16px;
+    line-height: 70%;
+    color: #FFFFFF;
+    position: relative;
+    top: 18%;
+}
+
+.main_link{
+    position: absolute;
+    top: 3%;
+    left: 1.5%;
+    width: 15%;
+    height: 7.5%;
+    background: #363434;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.diary_link{
+    position: absolute;
+    top: 3%;
+    left: 18%;
+    width: 15%;
+    height: 7.5%;
+    background: #363434;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.news_link{
+    position: absolute;
+    top: 3%;
+    left: 34.5%;
+    width: 15%;
+    height: 7.5%;
+    background: #363434;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.marks_link{
+    position: absolute;
+    top: 3%;
+    left: 51%;
+    width: 15%;
+    height: 7.5%;
+    background: #363434;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.messenger_link{
+    position: absolute;
+    top: 3%;
+    left: 67.5%;
+    width: 15%;
+    height: 7.5%;
+    background: #363434;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.notifications{
+    position:absolute;
+    top: 3%;
+    left: 87.5%; 
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+.notifications:active{
+    position:absolute;
+    top: 3%;
+    left: 87.5%; 
+    transform: translate3d(0em, 0.25em, 0em);
+    transition: transform 0.15s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.notification_icon{
+    position: absolute;
+    height: 4%;
+    width: 2%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;    
+}
+
+.user_icon{
+    position: absolute;
+    width: 3.5%;
+    height: 7%;
+    left: 92%;
+    top: 3%;
+    background: #DB00FF;
+    border-radius: 50px;
+}
+.user_icontext {
+    position: absolute;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    z-index: 999;
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,151 @@
+.months{
+    position: absolute;
+    top: 12%;
+    width: 110%;
+    height: 7.5%;
+}
+
+.September, .November, .October{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background: #363434;
+    border-radius: 10px;
+}
+
+.September{
+    left: 17%;
+}
+
+.November{
+    left: 43%;
+}
+
+.October{
+    left: 69%;
+}
+
+.September p, .November p, .October p{
+    position: absolute;
+    width: 114px;
+    height: 44px;
+    left: 41%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.lessons_column{
+    position: absolute;
+    top: 19.5%;
+    width: 17%;
+    height: 110%;
+}
+
+.English, .Russian, .Alg, .Geom, .Physics, .himia, .Biol, .Ist{
+    position: absolute;
+    width:100%;
+    height: 7.5%;
+    background: #363434;
+    border-radius: 10px;
+}
+
+.English{
+    top: 1%;
+}
+
+.Russian{
+    top: 9.5%;
+}
+
+.Alg{
+    top:18%;
+}
+
+.Geom{
+    top:26.5%;
+}
+
+.Physics{
+    top:35%;
+}
+
+.himia{
+    top:43.5%;
+}
+
+.Biol{
+    top:52%;
+}
+
+.Ist{
+    top:60.5%;
+}
+
+.English p, .Russian p, .Alg p, .Geom p, .Physics p, .himia p, .Biol p, .Ist p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -5%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mark5,.mark4,.mark3,.mark2,.mark1,.mark_point{
+    position: absolute;
+    width: 25.5%;
+    border-radius: 10px;
+    height: 100%;
+    
+}
+
+.mark5{
+    right: -35.5%;
+    background: #4BAB00;
+}
+
+.mark4{
+    right: -61%;
+    background: #306A32;
+}
+
+.mark3{
+    right: -86.5%;
+    background: #C66B00;
+}
+
+.mark2{
+    right: -112%;
+    background: #880000;
+}
+
+.mark1{
+    right: -137.5%;
+    background: #590000;
+}
+
+.mark_point{
+    right: -163%;
+    background: #000;
+}
+.mark5 a,.mark4 a,.mark3 a,.mark2 a,.mark1 a,.mark_point a{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}

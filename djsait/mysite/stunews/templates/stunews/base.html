@@ -1,0 +1,15 @@
+{% extends 'stunews/news.html' %}
+
+
+    {% block content %}
+        {% for el in gavno %}
+            <div class="news1">
+                <a>{{ el.text }}</a>
+                <p style="font-size:18px">{{ el.news_data }}</p>
+                <div class="author1">
+                    <div class="name_author1"><p>{{ el.name }} {{ el.fam }} {{ el.otch }}</p></div>
+                    <div class="img_author1"><p>ИВ</p></div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endblock %}
