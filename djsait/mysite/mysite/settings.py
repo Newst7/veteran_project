@@ -35,10 +35,7 @@ INSTALLED_APPS = [
     'registration.apps.RegistrationConfig',
     'stunews.apps.StunewsConfig',
     'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
+    'django.contrib.mainpage',
     'django.contrib.staticfiles',
 ]
 
