@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f40d4ac3-b0e5-47e4-9392-f9b8e288adbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AAA/infoPage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diary_try2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/.idea/djsait.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/mysite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/список заданий.odt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Mu6uhCCEv4jaozmaNZsUv9NGvM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/veteran_project"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f40d4ac3-b0e5-47e4-9392-f9b8e288adbb" name="Changes" comment="" />
+      <created>1678605344939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678605344939</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

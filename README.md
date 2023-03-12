@@ -1,1 +1,0 @@
-# veteran_project
