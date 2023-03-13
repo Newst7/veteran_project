@@ -5,46 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f40d4ac3-b0e5-47e4-9392-f9b8e288adbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AAA/infoPage/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diary_try2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/.idea/djsait.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/mysite.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mainpage/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djsait/mysite/mysite/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/список заданий.odt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AAA/infoPage/templates/infoPage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AAA/AAA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AAA/AAA/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AAA/infoPage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AAA/infoPage/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
