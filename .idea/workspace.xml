@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="f40d4ac3-b0e5-47e4-9392-f9b8e288adbb" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/AAA/infoPage/templates/infoPage/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AAA/AAA/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AAA/AAA/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AAA/infoPage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AAA/infoPage/views.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="f40d4ac3-b0e5-47e4-9392-f9b8e288adbb" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +37,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
@@ -40,8 +45,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/User/Documents/GitHub/veteran_project"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Documents/GitHub/veteran_project&quot;
+>>>>>>> Stashed changes
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
