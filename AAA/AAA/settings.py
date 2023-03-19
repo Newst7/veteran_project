@@ -29,9 +29,10 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
 INSTALLED_APPS = [
-    'django.contrib.infoPage',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
