@@ -29,9 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
