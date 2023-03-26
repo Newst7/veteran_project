@@ -4,4 +4,4 @@ from django.shortcuts import get_object_or_404, render
 
 def index(request):
 
-    return render(request, 'infoPage/info.html')
+    return HttpResponse('Hello World')
