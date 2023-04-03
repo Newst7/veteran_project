@@ -215,7 +215,7 @@ left: calc(50% - 20px);
 .states {
 	/* Frame 8 */
 	position: absolute;
-	
+
 	width: 300px;
 	height: 180px;
 	top: 260px;
@@ -297,7 +297,7 @@ color: #000000;
 }
 
 .state_text {
-	
+
 position: absolute;
 
 font-family: 'Roboto';
@@ -457,7 +457,7 @@ color: #000000;
 
 	border-radius: 50%;
 	background: #000000;
-}	
+}
 
 .cir_gray{
 	position: relative;
@@ -466,7 +466,7 @@ color: #000000;
 
 	border-radius: 50%;
 	background: #868B90;
-}	
+}
 
 .filters_income {
     display: flex;
@@ -647,3 +647,5 @@ line-height: 19px;
 .depression {
 	left: calc(20% - 250px/2);
 }
+
+/* СТИЛИ ДЛЯ СТРАНИЦЫ РЕГИСТРАЦИИ */
