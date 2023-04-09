@@ -7,7 +7,7 @@ def hello_world():
     return render_template('index.html')
 
 @app.route("/reg")
-def hello_world():
+def reg():
     return render_template('reg.html')
 
 if __name__ == '__main__':
