@@ -170,6 +170,12 @@ top: 25px;
 
 background: #757575;
 border-radius: 5px;
+	transition: background 0.2s;
+}
+
+.login:hover {
+	background: #868B90;
+	color: #FFFFFF;
 }
 
 .search_bar {
@@ -180,7 +186,7 @@ position: absolute;
 width: 1000px;
 height: 55px;
 left: calc(50% - 1000px/2);
-top: 133px;
+top: 130px;
 
 background: rgba(255, 255, 255, 0.8);
 border-radius: 3px;
@@ -215,7 +221,7 @@ left: calc(50% - 20px);
 .states {
 	/* Frame 8 */
 	position: absolute;
-
+	
 	width: 300px;
 	height: 180px;
 	top: 260px;
@@ -297,7 +303,7 @@ color: #000000;
 }
 
 .state_text {
-
+	
 position: absolute;
 
 font-family: 'Roboto';
@@ -343,16 +349,359 @@ height: 1000px
 
 
 
+.sing_in_registration {
+	/* меню  */
 
 
+position: absolute;
+width: 200px;
+height: 40px;
+left:calc(10% - 100px/2);
+top: 200px;
+
+}
 
 
+.sing_in {
+/* Вход */
 
+
+position: absolute;
+width: 200px;
+height: 40px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #868B90;
+
+}
+
+
+.registration {
+/* Регистрация */
+
+
+position: absolute;
+width: 100px;
+height: 40px;
+left: 60px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+
+.registration_window {
+	/* окно регистрации */
+
+
+position: absolute;
+width: 500px;
+height: 700px;
+left: calc(50% - 500px/2);
+top: calc(60% - 700px/2);
+
+background: #FFFFFF;
+}
+
+
+.reg_text {
+	/* Регистрация */
+
+
+position: absolute;
+width: 400px;
+height: 40px;
+left: calc(50% - 200px/2);
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+.reg_name {
+	/* Имя */
+
+
+position: absolute;
+width: 30px;
+height: 20px;
+left: calc(50% - 33px/2 - 110px);
+top: 120px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+
+.name {
+	/* Frame 98 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 30px;
+left: calc(50% - 261px/2 + 5px);;
+top: 150px;
+
+border: 1px solid #000000;
+}
+
+
+.reg_last_name {
+	/* Фамилия */
+
+
+position: absolute;
+width: 70px;
+height: 20px;
+left: calc(50% - 70px/2 - 90px);
+top: 200px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+
+.last_name {
+	/* Frame 99 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 30px;
+left: calc(50% - 261px/2 + 5px);;
+top: 220px;
+
+border: 1px solid #000000;
+}
+
+
+.reg_city {
+/* Город */
+
+
+position: absolute;
+width: 45px;
+height: 19px;
+left: calc(50% - 45px/2 - 104px);
+top: 265px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.city {
+/* Frame 100 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 261px;
+height: 32px;
+left: calc(50% - 261px/2 + 5px);
+top: 290px;
+
+border: 1px solid #000000;
+}
+
+.reg_email {
+/* Эл.почта */
+
+
+position: absolute;
+width: 200px;
+height: 20px;
+left: calc(50% - 68px/2 - 91.5px);
+top: 330px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.email {
+/* Frame 101 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 30px;
+left: calc(50% - 261px/2 + 5px);
+top: 360px;
+
+border: 1px solid #000000;
+}
+
+.reg_password {
+/* Пароль */
+
+
+position: absolute;
+width: 200px;
+height: 20px;
+left: calc(50% - 56px/2 - 98.5px);
+top: 400px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.password {
+/* Frame 102 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 30px;
+left: calc(50% - 261px/2 + 5px);
+top: 430px;
+
+border: 1px solid #000000;
+}
+
+.reg_re_password {
+/* Повтор пароля */
+
+
+position: absolute;
+width: 200px;
+height: 20px;
+left: calc(50% - 117px/2 - 68px);
+top: 470px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.re_password {
+/* Frame 104 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 260px;
+height: 30px;
+left: calc(50% - 261px/2 + 5px);
+top: 500px;
+
+border: 1px solid #000000;
+}
+
+
+.reg_button {
+	/* Frame 106 */
+
+
+position: absolute;
+width: 260px;
+height: 40px;
+left: calc(50% - 260px/2);
+top: 560px;
+
+background: #484848;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #FFFFFF;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+	transition: background 0.2s;
+border-radius: 5px;
+
+}
+
+
+.reg_button:hover {
+	background: #868B90;
+	color: #FFFFFF;
+}
 
 .vacancys_resume {
 
 	position: absolute;
-width: 200px;
+width: 100px;
 height: 50px;
 left: calc(10% - 200px/2);
 top: 250px;
@@ -457,7 +806,7 @@ color: #000000;
 
 	border-radius: 50%;
 	background: #000000;
-}
+}	
 
 .cir_gray{
 	position: relative;
@@ -466,7 +815,7 @@ color: #000000;
 
 	border-radius: 50%;
 	background: #868B90;
-}
+}	
 
 .filters_income {
     display: flex;
@@ -647,5 +996,3 @@ line-height: 19px;
 .depression {
 	left: calc(20% - 250px/2);
 }
-
-/* СТИЛИ ДЛЯ СТРАНИЦЫ РЕГИСТРАЦИИ */

@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Страница регистрации</title>
+</head>
+<body>
+	<div class="header">
+		<div class="main" >
+			<div class="titles">Главная</div>
+		</div>
+		<div class="posts" >
+			<div class="titles">Объявления</div>
+		</div>
+		<div class="job" >
+			<div class="titles">Работа</div>
+		</div>
+		<div class="help" >
+			<div class="titles">Поддержка</div>
+		</div>
+		<div class="chat" >
+			<div class="titles">Чат</div>
+		</div>
+		<div class="login" >
+			<div class="button_text">Вход</div>
+		</div>
+	</div>
+
+	<div class="search_bar">
+		<div class="search">
+			<img src="{{ url_for('static', filename='img/search_img.png') }}" class="search_img">
+		</div>
+	</div>
+
+	<div class="sing_in_registration">
+		<div class="sing_in">Вход</div>
+		<div class="registration">Регистрация</div>
+	</div>
+
+	<div class="registration_window">
+		<div class="reg_text">Регистрация</div>
+		<div class="reg_name">Имя</div>
+		<input class="name" type="text">
+		<div class="reg_last_name">Фамилия</div>
+		<input class="last_name" type="text">
+		<div class="reg_city">Город</div>
+		<input class="city" type="text">
+		<div class="reg_email">Электронная почта</div>
+		<input class="email" type="email">
+		<div class="reg_password">Придумайте пароль</div>
+		<input class="password" type="password">
+		<div class="reg_re_password">Повторите пароль</div>
+		<input class="re_password" type="password">
+		<div class="reg_button">Зарегистрироваться</div>
+		
+	</div>
