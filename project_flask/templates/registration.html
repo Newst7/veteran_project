@@ -43,6 +43,14 @@
 		<div class="reg_text">Регистрация</div>
 		<div class="reg_name">Имя</div>
 		<input class="name" type="text">
+		<script>
+		$( "input" )
+		  .keyup(function() {
+			var value = $( this ).val();
+			$( "p" ).text( value );
+		  })
+		  .keyup();
+		</script>
 		<div class="reg_last_name">Фамилия</div>
 		<input class="last_name" type="text">
 		<div class="reg_city">Город</div>
