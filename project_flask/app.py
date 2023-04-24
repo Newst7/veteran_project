@@ -9,6 +9,7 @@ def hello_world():
 
 @app.route("/reg")
 def reg():
+    
     return render_template('registration.html')
 
 if __name__ == '__main__':
